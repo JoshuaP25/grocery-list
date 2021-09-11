@@ -74,7 +74,7 @@ button:hover {
 }
 
 .grocery-list {
-    padding: 20px 50px;
+    padding: 20px 30px;
     overflow-y: auto;
 }
 
@@ -86,12 +86,13 @@ ol {
 ol li {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    padding: 7px 0;
     cursor: pointer;
 }
 
 ol li.checked {
     text-decoration: line-through;
+    color: #dfe6e9;
 }
 
 .close i {
